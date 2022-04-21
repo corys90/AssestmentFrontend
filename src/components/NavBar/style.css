@@ -1,0 +1,25 @@
+.divBarNB {
+  display: Grid;
+  grid-template-columns: 0.5fr 0.5fr 10fr;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: rgb(107, 142, 35);
+  border: 1px solid rgb(241, 238, 8);
+  border-radius: 10px;
+  color: azure;
+}
+
+.divBarNB__opciones {
+  padding: 20px 10px;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .divBarNB {
+    display: flex;
+    flex-direction: column;
+  }
+}
