@@ -1,0 +1,24 @@
+.containerCH {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /*height: 210px;*/
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #c8c2bb;
+  margin: 5px 5px;
+}
+
+.containerCH_divImg {
+  text-align: center;
+}
+
+.containerCH_divTitle {
+  font-size: 14px;
+  text-align: center;
+}
+
+.imageSize {
+  width: 90px;
+  height: 70px;
+}
