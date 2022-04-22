@@ -4,7 +4,7 @@ import MainRouter from "../src/components/MainRouter";
 function App() {
   return (
     <div className="App">
-            <MainRouter />
+      <MainRouter />
     </div>
   );
 }
