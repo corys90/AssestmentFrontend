@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import { React } from "react";
-import CardHome from "../../Components/CardHome";
+import CardHome from "../../components/CardHome";
 import "../HomePage/style.css";
 
 const HomePage = () => {
