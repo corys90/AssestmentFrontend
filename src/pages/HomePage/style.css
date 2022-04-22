@@ -12,6 +12,15 @@
   margin: 0 auto;
 }
 
+.centerDivHP--loading {
+  margin: 0 auto;
+  font-size: 32px;
+}
+
+.centerDivHP--noloading {
+  display: none;
+}
+
 @media (max-width: 720px) {
   .centerDivHP {
     flex-direction: column;
