@@ -1,0 +1,11 @@
+.containerDivDP {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(250, 251, 247);
+  border: 1px solid red;
+}
+
+.lateral {
+  width: 300px;
+  background-color: blueviolet;
+}
