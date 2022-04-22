@@ -1,0 +1,42 @@
+.divFootT-Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.divFootT-Container__divTimerT {
+  width: auto;
+  margin: auto;
+  text-align: left;
+}
+
+.buttonDetails {
+  background-color: olivedrab;
+  color: rgb(255, 255, 255);
+  border: 2px solid whitesmoke;
+  padding: 8px;
+  text-align: center;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.buttonDetails:hover {
+  background-color: #8cee58;
+  color: rgb(15, 14, 14);
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.btnDisabled {
+  background-color: gainsboro;
+  pointer-events: none;
+}
+
+@media (max-width: 720px) {
+  .divFootT-Container__divTimerT {
+    width: 100%;
+    text-align: center;
+  }
+}
