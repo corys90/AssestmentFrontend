@@ -1,6 +1,6 @@
 import { React } from "react";
 import { useParams } from "react-router-dom";
-import CardDetail from "../../Components/CardDetail";
+import CardDetail from "../../components/CardDetail";
 import "./style.css";
 
 const ProductDetailPage = () => {
