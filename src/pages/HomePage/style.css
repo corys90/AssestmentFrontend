@@ -1,0 +1,23 @@
+.centerDivHP {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.centerDivHP--productItems {
+  width: 20%;
+  margin: 0 auto;
+}
+
+@media (max-width: 720px) {
+  .centerDivHP {
+    flex-direction: column;
+  }
+
+  .centerDivHP--productItems {
+    width: 100%;
+  }
+}
