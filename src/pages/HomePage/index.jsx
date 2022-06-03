@@ -2,24 +2,15 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { React } from "react";
 import CardHome from "../../components/CardHome";
+import { hpFakerApi } from "../../library";
 import "../HomePage/style.css";
 
 const HomePage = () => {
   const [data, setData] = useState([]);
   const [clase, setClase] = useState(true);
 
-  async function fakerApi() {
-    await fetch("https://fakestoreapi.com/products/")
-      .then((res) => res.json())
-      .then((json) => {
-        setClase(false);
-        setData(json);
-        return json;
-      });
-  }
-
   useEffect(() => {
-    fakerApi();
+    hpFakerApi(setData, setClase);
   }, []);
 
   return (

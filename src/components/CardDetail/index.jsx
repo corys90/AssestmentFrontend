@@ -1,5 +1,6 @@
 import { React } from "react";
 import { useEffect, useState } from "react";
+import { cdFakerApi } from "../../library";
 import "./style.css";
 
 const CardDetail = (props) => {
@@ -14,18 +15,8 @@ const CardDetail = (props) => {
     rating: { rate: "loading...", count: "loading..." },
   });
 
-  async function fakerApi(id) {
-    const url = "https://fakestoreapi.com/products/" + id;
-    await fetch(url)
-      .then((res) => res.json())
-      .then((json) => {
-        setData(json);
-        return json;
-      });
-  }
-
   useEffect(() => {
-    fakerApi(props.id);
+    cdFakerApi(props.id, setData);
   }, []);
 
   return (
