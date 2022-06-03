@@ -15,19 +15,6 @@ const NavBar = (props) => {
       route: "/aboutpage",
     },
   ];
-  /*     
-  <div className="divBar">
-      <div></div>
-      <div className="opciones">
-        <p>Home</p>
-      </div>
-      <div className="opciones"></div>
-      <div className="opciones">
-        <p>About</p>
-      </div>
-      <div></div>
-    </div>
- */
   return (
     <nav>
       <div className="divBarNB">
